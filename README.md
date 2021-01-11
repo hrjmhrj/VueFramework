@@ -1,5 +1,5 @@
 Vue3.0框架集成了Vant和二维码
-# wechat-pay
+# vue-vant
 
 ## Project setup
 ```
