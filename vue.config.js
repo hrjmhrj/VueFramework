@@ -5,7 +5,7 @@ function resolve(dir) {
   return path.join(__dirname, dir)
 }
 
-const name = 'vue集成vant'
+const title = 'vueandvant'
 
 module.exports = {
   // 部署生产环境和开发环境下的URL。
@@ -22,7 +22,7 @@ module.exports = {
   devServer: {
     open: false,
     host: '0.0.0.0',
-    port: 8099,
+    port: 80,
     /*proxy: {
       [process.env.VUE_APP_BASE_API]: {
         target: process.env.VUE_APP_BASE_URL,
