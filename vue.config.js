@@ -23,7 +23,7 @@ module.exports = {
     open: false,
     host: '0.0.0.0',
     port: 80,
-    /*proxy: {
+    proxy: {
       [process.env.VUE_APP_BASE_API]: {
         target: process.env.VUE_APP_BASE_URL,
         changeOrigin: true,
@@ -31,7 +31,7 @@ module.exports = {
           ['^' + process.env.VUE_APP_BASE_API]: '/'
         }
       }
-    },*/
+    },
     disableHostCheck: true
   },
   chainWebpack: config => {

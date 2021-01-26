@@ -3,7 +3,7 @@ axios.defaults.headers['Content-Type'] = 'application/json;charset=utf-8';
 
 
 const service = axios.create({
-    baseURL: process.env.VUE_APP_BASE_URL,
+    baseURL: process.env.VUE_APP_BASE_API,
     // 超时
     //timeout: 20000,
 })

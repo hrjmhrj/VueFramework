@@ -10,7 +10,7 @@ Vue.config.productionTip = false;
 Vue.prototype.axios = request;
 
 // 配置默认ajax请求路径
-axios.defaults.baseURL = process.env.VUE_APP_BASE_URL;
+axios.defaults.baseURL = process.env.VUE_APP_BASE_API;
 
 //路由拦截器
 router.beforeEach((to, from, next) => {
